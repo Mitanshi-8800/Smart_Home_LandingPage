@@ -1,0 +1,866 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Poppins:ital,wght@0,200;0,500;0,700;1,200;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url('./Image/Smart_Home.png'),lightgray 50% / cover ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 1165.514px;
+    height: 740.459px;
+    /* border: 3px solid black; */
+    
+}
+.smart_home{
+    margin-top: 10px;
+    width: 857.86px;
+    height: 62.251px;
+    border-radius: 60.901px;
+    border: 1.05px solid rgba(255, 255, 255, 0.81);
+    background: rgba(155, 155, 155, 0.35);
+    backdrop-filter: blur(52.81766128540039px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 14%;
+}
+.smart_home h3{
+    color: #FFF;
+    font-size: 22.516px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 10px;
+}
+.Smart_timezone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.search_input_box input{
+    width: 330.454px;
+    height: 35.85px; 
+    border-radius: 78.751px;
+    border: none;
+    background: rgba(61, 63, 85, 0.30);
+}
+.search_input_box input::placeholder{
+    color: #D5D5D5;
+    font-size: 16.717px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 40px;
+}
+.Smart_timezone h3{
+    color: #FFF;
+    font-size: 22.516px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart_timezone h4{
+    color: #FFF;
+    font-size: 14.036px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 15px;
+}
+.Smart-home_Content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid black; */
+}
+.Smart-home_Content_Menubar{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: space-around;
+    width: 8%;
+    height: 85%;
+    /* border: 2px solid black; */
+    margin-left: 10px;
+    border-radius: 68.251px;
+    border: 1.05px solid rgba(255, 255, 255, 0.81);
+    background: rgba(155, 155, 155, 0.35);
+    backdrop-filter: blur(52.81766128540039px);
+}
+.Smart-home_Content_Menubar_1{
+    width: 50.851px;
+    height: 50.851px;
+    border-radius: 33.762px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(87, 108, 188, 0.80);
+    box-shadow: 0px 0px 13.65016px 1.05001px rgba(0, 0, 0, 0.25);
+}
+.Smart-home_Content_Subtract_Module{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 19.104px;
+    border: 1.05px solid rgba(255, 255, 255, 0.81);
+    background: rgba(155, 155, 155, 0.35);
+    backdrop-filter: blur(52.81766128540039px);
+}
+.Smart-home_Content_Subtract_Module_Left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    height: 100%;
+    /* border: 3px solid; */
+    border-radius: 19.104px 0px 0px 19.104px;
+}
+.Smart-home_Content_Subtract_Module_Left_part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly ;
+    width: 50%;
+    height: 100%;
+    /* border: 3px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_part1_top{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25.2px;
+    background: rgba(11, 17, 71, 0.20);  
+    align-items: center;
+    justify-content:space-evenly;
+    width: 90%;
+    height: 45%;
+    /* border: 1px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_part1_top h4{
+    color: #FFF;
+    text-align: left;
+    font-size: 20.193px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_top_left{
+    display: flex;
+    flex-direction:row;
+    width:85% ;
+    height: 80%;
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content:space-between;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_top_left_1{
+    display: flex;
+    flex-direction:column;
+    width:17% ;
+    height: 85%;
+    /* border: 1px solid; */
+    align-items: flex-start;
+    margin-bottom: 15px;
+    justify-content:space-between;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_top_left_1 h5{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16.7px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Smart-home_Content_Subtract_Module_Left_part1_top_left_2{
+    display: flex;
+    flex-direction:column;
+    width:75% ;
+    height: 100%;
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content:space-evenly;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_top_left_2_Upper{
+    display: flex;
+    flex-direction:row;
+    width:100% ;
+    height: 90%;
+    /* border: 1px solid; */
+    margin-top: 0px;
+    align-items: flex-end;
+    justify-content:end;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_top_left_2_Lower{
+    display: flex;
+    flex-direction:row;
+    width:100% ;
+    height: 10%;
+    /* border: 1px solid; */
+    margin-top: 0px;
+    align-items: center;
+    justify-content: space-between;
+}  
+.Smart-home_Content_Subtract_Module_Left_part1_top_left_2_Lower h5{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 15.982px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle{
+    display: flex;
+    flex-direction: row;
+    border-radius: 25.2px;
+    background: rgba(11, 17, 71, 0.20);  
+    align-items: center;
+    justify-content:space-between;
+    width: 90%;
+    height: 28%;
+    /* border: 1px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Left_Top{
+    width: 90%;
+    height: 20%;
+    /* border: 1px solid; */
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Left_Middle{
+    width: 100%;
+    height: 55%;
+    margin-left: 45px;
+    position: relative;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Left_Bottom{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Left_Middle_Content{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    display: flex;
+    height: 38px;
+
+    flex-direction: column;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Left_Middle_Content h5{
+    color: #FFF;
+    text-align: center;
+    font-size: 25.734px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px;
+    padding: 0;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Left_Middle_Content p{
+    color: #FFF;
+    text-align: center;
+    font-size: 15.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Right_Top{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+   
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Right_Top h5{
+    color: #FFF;
+    font-size: 18.259px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Right_Top img{
+   width: 25%;
+   height: 90%;
+   margin-right: 5px;
+   margin-top: 3px;
+}
+
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Right_Bottom{
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 60%;
+    /* border: 1px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Right_Bottom h6{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 18.166px;
+    font-style: normal;
+    font-weight: 500;
+    width: 90%;
+    height: 20%;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Right_Bottom_Div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Right_Bottom_Div_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%; 
+    height: 80%; 
+    border-radius: 8.4px;
+    background: rgba(255, 255, 255, 0.30);
+    
+}
+#mid_content{
+    border-radius: 8.4px;
+    background: rgba(255, 255, 255, 0.75);
+}
+#mid_content h6{
+    color: #576CBC;
+}
+
+
+.Smart-home_Content_Subtract_Module_Left_part1_Middle_Right_Bottom_Div_1 h6{
+    color: #FFF;
+    text-align: center;
+   
+    font-size: 8.657px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}  
+
+.Smart-home_Content_Subtract_Module_Left_part1_Bottom{
+    display: flex;
+    border-radius: 25.2px;
+    align-items: center;
+    justify-content:center ;
+    width: 90%;
+    height: 18%;
+    border-radius: 4.2px;
+    border: 1.68px dashed rgba(255, 255, 255, 0.60);
+}
+.Smart-home_Content_Subtract_Module_Left_part1_Bottom h5{
+    color: rgba(255, 255, 255, 0.60);
+     margin-left: 5px;
+    font-size: 22.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+    height: 100%;
+    /* border: 3px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    border-radius: 25.2px;
+    background: rgba(219, 219, 219, 0.25);
+    /* border: 1px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Device{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    /* border: 3px solid; */
+}    
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Img{
+    width: 55%;
+    height: 100%;
+    /* border: 1px solid; */
+    position: relative;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Img img{
+     margin-left: 0px;
+     position: absolute;
+     top: 0%;
+     left: 0%;
+     
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Content{
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+      /* justify-content: space-between; */
+      width: 44%;
+      /* border: 1px solid; */
+      margin-top: 20px;
+      height: 100%;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Content h4{
+    color: rgba(23, 23, 23, 0.48);
+    text-align: left;
+    font-size: 16.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Content h5{
+    color: #FFF;
+    font-size: 18.835px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Content_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-left: 3px;
+    /* border: 1px solid; */
+    border-radius: 15.75px;
+    background: rgba(65, 65, 65, 0.25);
+    margin-top: 20px;
+    height: 100%;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Content_text h5{
+    color: #FFF;
+    text-align: center;
+    font-size: 19.421px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Content_text p{
+    color: rgba(255, 255, 255, 0.78);
+    text-align: center;
+    font-size: 11.55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Content_text hr{
+    width: 80%;
+}   
+.Smart-home_Content_Subtract_Module_Left_Part2_0N_OFF{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+    height: 20%;
+    margin-top: 25px;
+    /* border: 1px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_0N_OFF_on{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-evenly;
+    width: 48%;
+    height: 100%;
+    border-radius: 10.5px;
+    background: rgba(65, 65, 65, 0.25);     
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_0N_OFF_on h5{
+    color: #FFF;
+    text-align: left;
+    font-size: 18.016px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_0N_OFF_on p{
+    color: #FFF;
+    text-align: left;
+    font-size: 15.016px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_0N_OFF_off h5{
+    color: #FFF;
+    text-align: left;
+    font-size: 18.016px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_0N_OFF_off p{
+    color: #FFF;
+    text-align: left;
+    font-size: 15.016px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.Smart-home_Content_Subtract_Module_Left_Part2_0N_OFF_off{
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+    justify-content: space-evenly;
+    width: 48%;
+    height: 100%;
+    border-radius: 10.5px;
+    background: rgba(65, 65, 65, 0.25);     
+}
+.Smart-home_Content_Subtract_Module_Right{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 20px;
+    width: 29%;
+    height: 100%;
+    background-color: rgba(11, 17, 71, 0.20);
+}
+.Smart-home_Content_Subtract_Module_Right H2{
+    color: #FFF;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Right_ArrowImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 17%;
+    
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Device_Loadbar{
+     margin-top: 20px;
+}
+.Smart-home_Content_Subtract_Module_Right_ArrowImg img{
+    margin-left: 10px;
+}
+
+.Smart-home_Content_Subtract_Module_Right_Img{
+    position: relative;
+}
+.Smart-home_Content_Subtract_Module_Right_Img_text{
+    position: absolute;
+    top: 15%;
+    left: 58%;
+}
+.Smart-home_Content_Subtract_Module_Right_Img_text1{
+    width: 77.551px;
+    height: 26.25px;
+    border-radius: 6.3px;
+    background: rgba(57, 57, 57, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    margin-top: 20px;
+    /* border: 1px solid; */
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Bottom_content{
+     width: 30%;
+     height: 100%;
+     justify-content: space-evenly;
+     align-items: flex-start;
+     border-radius: 22.083px;
+     background: rgba(219, 219, 219, 0.30);
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Bottom_content img{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Bottom_content h5{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.62);
+    font-size: 10.369px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Left_Part2_Bottom_content h6{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #FFF;
+    
+    font-size: 17.219px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Smart-home_Content_Subtract_Module_Right_Img_text1 i{
+    color: #E53A3A;
+    padding-right: 5px;
+}
+.Smart-home_Content_Subtract_Module_Right_Img_text1 p{
+    color: #fff;
+    padding-right: 5px;
+}
+.Smart-home_Content_Subtract_Module_Right_ArrowImg1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Smart-home_Content_Subtract_Module_Right_ArrowImg2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    width: 90%;
+    height: 30%;
+    
+}
+
+.Smart-home_Content_Subtract_Module_Right_ArrowImg2 h5{
+    color: #FFF;
+    font-size: 25.457px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Right_ArrowImg2 p{
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 15.937px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Right_ArrowImg3 {
+    flex-direction: row;
+    text-align: left;
+    width: 90%;
+}
+.Smart-home_Content_Subtract_Module_Right_ArrowImg3 h5{
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 17.577px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Right_Music{
+    width: 85%;
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.Smart-home_Content_Subtract_Module_Right_Music_text{
+    width: 85%;
+    height: 7%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.Smart-home_Content_Subtract_Module_Right_Music_text p{
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 9.758px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Right_Music_text h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 15.883px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Right_Music_button{
+    /* border: 1px solid; */
+    width: 85%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.Smart-home_Content_Subtract_Module_Right_Music_button1{
+    /* border: 1px solid; */
+    width:100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Smart-home_Content_Subtract_Module_Right_Music_button2{
+    /* border: 1px solid; */
+    width:100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Smart-home_Content_Subtract_Module_Right_Music_button1 img{
+   width: 10%;
+   height: 55%;
+}
+.Smart-home_Content_Subtract_Module_Right_Music h3{
+    color: rgba(255, 255, 255, 0.78);
+    text-align: center;
+    text-align: left;
+    font-size: 18.107px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Right_Music_Name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Smart-home_Content_Subtract_Module_Right_Music_Name p{
+    color: #FFF;
+    text-align: center;
+    font-size: 13.107px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Smart-home_Content_Subtract_Module_Right_Music_Name img{
+    width: 10%;
+    height: 80%;
+}
+.Smart-home_Content_Roombar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Smart-home_Content_Roombar_Items{
+    width: 650.957px;
+    height: 55.651px;
+    border-radius: 60.901px;
+    border: 1.05px solid rgba(255, 255, 255, 0.81);
+    background: rgba(155, 155, 155, 0.35);
+    backdrop-filter: blur(52.81766128540039px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}          
+.Smart-home_Content_Roombar_Items h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 22.86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} 
+.Smart-home_Content_Roombar_Items h4:hover{
+    border-radius: 23.1px;
+    background: rgba(50, 50, 50, 0.29);
+}
+.Smart-home_Content_Roombar_Items_Lines{
+    width: 2.3px;
+    height: 25.05px;
+    border-radius: 10.5px;
+    background: rgba(255, 255, 255, 0.64);
+} 
+.Smart-home_Content_Roombar_Items_PlusButton{
+    width: 42px;
+    height: 42px;
+    background: #576CBC;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 13.650161743164062px rgba(0, 0, 0, 0.25));
+}                                                                                                       
